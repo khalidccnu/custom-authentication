@@ -1,0 +1,17 @@
+{
+  "name": "custom-authentication",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "client": "npm start --prefix client",
+    "server": "npm run dev --prefix server",
+    "start": "concurrently \"npm run client\" \"npm run server\""
+  },
+  "keywords": [],
+  "author": "S.M. Khalid Mahmud",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
